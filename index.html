@@ -1,67 +1,237 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
+[  ] Two External Links
+[  ] Table
+[  ] Three CSS Rules
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
-[ no ] Feature 3 - Include Horizontal Line
-[ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
+[ no ] Feature 1 - Include a :hover feature
+[ no ] Feature 2 - Include at least two Internal links
+[ no ] Feature 3 - Include a list in a tabl
+[ no ] Feature 4 - Include at least two background images in a table
 -->
-    
-<!DOCTYPE HTML>
+
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-      <style>
-        body {background-color: rgb(228, 199, 166)}
-        li {color: rgb(50, 28, 4)}
-        img {border-radius: 10%;}
-        #OTGW {border: 3px solid rgb(56, 71, 41)}
-        #DPS {border: 3px solid rgb(84, 65, 0)}
-        #SOTL {border: 3px solid rgb(78, 0, 0)}
-        .DF {color: rgb(22, 32, 67)}
-        .animation {color: rgb(32, 61, 24)}
-        .genra {font-size: 13px}
-        .coa {color: rgb(97, 97, 97)}
-        .academia {color: rgb(58, 39, 8)}
-        .crime {color: rgb(0, 0, 0)}
-        .PH {color: rgb(78, 0, 0)}
-      </style>
-    </head>
-  
+  <head>
+    <title>Project: Spotify Playlists</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: rgb(194, 190, 185);
+      }
+      table,
+      th,
+      td {
+        border: 3px solid rgb(57, 57, 57);
+        border-radius: 5%;
+        background-color: rgb(198, 176, 151);
+      }
+      a {
+        color: rgb(57, 57, 57);
+      }
+      h2 {
+        text-indent: 10%;
+      }
+      img {
+        border: 5px solid rgb(198, 176, 151);
+        border-radius: 5%;
+      }
+    </style>
+  </head>
+
   <body>
-      <h1> <center>October Watch List</center>
-      </h1>
-      <h4><center>⁺‧₊˚ ཐི⋆♱⋆ཋྀ ˚₊‧⁺⛧☾༺♰༻☽⛧⁺‧₊˚ ཐི⋆♱⋆ཋྀ ˚₊‧⁺</center></h4> 
-      
- <ul>
-   <li><strong>Over the Garden Wall</strong><br><strong class="genra"><em class="DF">Dark Fantasy</em> ~ <em class="animation">Animation</em></strong></li>
-   
-   <p>
-     Two brother get lost in <em>The Unknown</em><br> and have to find their way home <br>before they are lost forever or found by <em>The Beast</em>. 
-   </p>
-  <img src="https://pyxis.nymag.com/v1/imgs/0d8/a7e/a7e45af36625b8900e63c51d0ec925749c-over-the-garden-wall.2x.rsocial.w600.jpg" width="300" id="OTGW">
-   <br><br>
-   
-   
-   <li><strong>Dead Poets Society</strong><br><strong class="genra"><em class="coa">Coming-of-Age</em> ~ <em class="academia">Academia</em></strong> </li>
-   <p>
-     Inspired by their new english teacher, <br>a group of boys go against the orthadox teachings of <br>their strict bording school.
-   </p>
-     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg4jbGt8ru_HBLvgAxUKrN-2DGyHFOr1M0_ILpRP0LxbM-nw2U-2W2VxYG_251tj-U5rCZlv-SlbnEYXG62WQ9xLA0LuDCScotbHBa1YfxHTUQD7FThbI26IsgHNYANNHepMFwsc-cVis/s1600/9.jpg" width="300" id="DPS"><br><br>
-   
-   
- <li><strong>Silence of the Lambs</strong><br><strong class="genra"><em class= "crime">Crime</em> ~ <em class="PH">Psychological Horror</em></strong></li>
-   <p>
-    A young FBI trainee is hunting the serial killer<br> "Buffalo Bill", when she needs to team up with the <br>imprisoned psychopath <em>Dr. Hannibal Lecter</em>. 
-   </p>
-   <img src="https://static.wixstatic.com/media/df61e9_14f0d2eb1a0b48b59d8b34215ceaf27b~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/df61e9_14f0d2eb1a0b48b59d8b34215ceaf27b~mv2.jpg" width="300" id="SOTL">
+    <center>
+      <h1><em>Spotify Playlists</em></h1>
+
+      <h3>.・。.・゜✭・.・✫・゜・。.</h3>
+    </center>
+
+    <ul>
+      <li><a href="#academia">School Academia</a></li>
+      <li><a href="spooky">Spooky</a></li>
+      <li><a href="lofi">Cottagecore Lofi</a></li>
     </ul>
-    </body>
+
+    <h2 id="academia">~ School Academia</h2>
+    <h2>
+      <img
+        src="https://i.pinimg.com/564x/92/0b/58/920b58b67d9e6417b5dc88890c3247b4.jpg"
+        ;
+        width="200"
+      />
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Genres</th>
+          <th>Songs</th>
+          <th>Main Artists</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <em
+                >Classical <br />Pop Punk <br />Alternative <br />Indie
+                <br />Sovietwave</em
+              >
+            </p>
+          </td>
+          <td>
+            <p>
+              Saint Bernard- Lincoln<br />Little Dark Age- MGMT<br />Темная
+              ночь- Mark Bernes<br />Abbey- Mitski<br />Brutus- The Buttress<br />Клетка-
+              Molchat Doma<br />Too Sweet- Hozier<br />The Fruits- Paris Paloma
+            </p>
+          </td>
+          <td>
+            <p>
+              <strong>
+                <a
+                  href="https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS?si=swglkUUETyG08EqIVSYdjw"
+                  >Hozier</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK?si=NKZ-EVvoTKWIhcASOoC0fw"
+                  >Mitski</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/3u6lPufHw4Oww6D88rv6sB?si=J1atYaLERy6ryLLzDIXOQA"
+                  >Penelope Scott</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/1nVq0hKIVReeaiB3xJgKf0?si=bSyWe5eoSaCrYgCdKYhL3A"
+                  >Molchat Doma</a
+                >
+              </strong>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="spooky">~ Spooky</h2>
+    <h2>
+      <img
+        src="https://i.pinimg.com/enabled_lo/474x/4a/7e/8d/4a7e8da7b88245c90d0c0d8047a9e732.jpg"
+        ;
+        width="200"
+      />
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Genres</th>
+          <th>Songs</th>
+          <th>Main Artists</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <em>Indie <br />Folk/Acoustic<br />Rock <br />Alt <br />Pixel</em>
+            </p>
+          </td>
+          <td>
+            <p>
+              We Fell in Love in October- Girl in Red<br />Season of the Witch-
+              Lana Del Rey<br />Horrorshow- Raccoon Tour<br />Haunt Me- Samsa<br />Into
+              the Unknown- Over the Garden Wall<br />Le Monde- Richard Carter<br />Like
+              Real People Do- Hozier
+            </p>
+          </td>
+          <td>
+            <p>
+              <strong>
+                <a
+                  href="https://open.spotify.com/artist/0e86yPdC41PGRkLp2Q1Bph?si=lGdfer_DTimi8poFLPu91w"
+                  >Mother Mother</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/5mGnbFnoUYEUNE5EKnQY7R?si=XO0b25gwTc-2CSuPeJLlwg"
+                  >Raccoon Tour</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/3u6lPufHw4Oww6D88rv6sB?si=J1atYaLERy6ryLLzDIXOQA"
+                  >Penelope Scott</a
+                ><br /><br /><a
+                  href="https://open.spotify.com/artist/4llAOeA6kEF4ytaB2fsmcW?si=9umACGo_TEWf-Uhw68OFaA"
+                  >Lemon Demon</a
+                >
+              </strong>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="lofi">~ Cottagecore Lofi</h2>
+    <h2>
+      <a
+        href="https://open.spotify.com/playlist/4qKNN5g0CgHGBwge5l9OnR?si=5dcec8f1f737415c"
+      >
+        <img
+          src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8463c750c9697b578c9360ffac"
+          ;
+          width="200"
+      /></a>
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Genres</th>
+          <th>Songs</th>
+          <th>Main Artists</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <em
+                >Lo-fi<br />Electronic<br />Chillhop<br />Study<br />Ghibli</em
+              >
+            </p>
+          </td>
+          <td>
+            <p>
+              Land of Petals- Ibrahim<br />Couch Weather- CaliCronk<br />Chirp-
+              Hazy Year<br />Winter Scent- BROCKBEATS, Etymology Records<br />I
+              was feeling down,<br />
+              I found a nice witch and we're friends- In Love with a Ghost<br />With
+              a Smile- YellowStraps
+            </p>
+          </td>
+          <td>
+            <strong>
+              <a
+                href="https://open.spotify.com/artist/0DrshpbzI0ItncVhYZ2BtW?si=0ZgOzYaqSWO365qbwh6gmg"
+                >BROCKBEATS</a
+              ><br /><br /><a
+                href="https://open.spotify.com/artist/38osEo6ebgNhOrlD5Xi4iZ?si=CXnA8a77TxKe8RE2YEouJQ"
+                >Ibrahim</a
+              ><br /><br /><a
+                href="https://open.spotify.com/artist/0WCCipy2qiobvuygnTMdkC?si=evAqLiu7RT6puIH-lH3pUQ"
+                >Tender Spring</a
+              ><br /><br /><a
+                href="https://open.spotify.com/artist/0SjvG9TO02Only9hkIBswM?si=sjz7dOSGTgaXlbQgYcPEOg"
+                >Dysphoria</a
+              ><br /><br /><a
+                href="https://open.spotify.com/artist/21tDFddcOFDYmiobTcls2O?si=bd-euMN2TdmJZ9hjXlEfmA"
+                >In Love with a Ghost</a
+              >
+            </strong>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      <em>
+        <a
+          href="https://open.spotify.com/user/3ecwaz7spyznyl8mrfkq1g4ae?si=7a7e0dcaf7264484"
+          >My Spotify Account</a
+        ></em
+      >
+    </p>
+  </body>
 </html>
